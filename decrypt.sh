@@ -2,8 +2,8 @@
 
 cd "$(dirname "$0")"
 
-if [[ -f "$HOME"/git/repo1/ip.txt.gpg ]]; then
-	rm -r "$HOME"/git/repo1
+if [[ -f repo1/ip.txt.gpg ]]; then
+	rm -r repo1
 fi
 
 git clone "$1" repo1
